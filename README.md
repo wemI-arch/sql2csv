@@ -1,10 +1,10 @@
-# sql2csv
+﻿# sql2csv
 自動でデータベースの特定テーブルをテキスト変換するwindows用バッチファイルです。
 
 「｜」区切りでCRLF改行なやつが出力されます
 
 
-準備(windowsだし大体必要)
+準備(exe付けたけど一応)
 
 Precompiled Binaries for Windowsのsqlite-tools-win32-x86をダウンロード
 
@@ -15,7 +15,7 @@ https://www.sqlite.org/download.html
 
 使い方
 
-sql_to_csv.batにドラッグアンドドロップ
+sql_to_csv.batにファイルをドラッグアンドドロップ
 
 保存先フォルダ\ファイル名_テーブル名.csvへ出力される(上書き確認なし)
 
